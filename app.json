@@ -1,0 +1,17 @@
+{
+  "name": "test-ecommerce-deploy",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [],
+  "website": "https://github.com/michael616kriel/shop-plaform-backend",
+  "repository": "https://github.com/michael616kriel/shop-plaform-backend",
+  "env": {},
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    },
+    {
+      "plan": "heroku-redis"
+    }
+  ],
+  "buildpacks": [{ "url": "heroku/nodejs" }]
+}
